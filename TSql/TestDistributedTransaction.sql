@@ -1,3 +1,7 @@
+-- This scripts shows the data from remote and local server before and after
+-- executing stored procedure which uses distributed transaction,
+-- to show how the data is changed by the stored procedure.
+
 select * from [sqls-products].ProductsDB.dbo.products
 select * from CustomersDB.dbo.orderLists
 
