@@ -1,3 +1,6 @@
+-- This script creates database, its schema and one stored procedure that uses distributed transactions from T-SQL.
+--
+
 USE master
 GO
 
